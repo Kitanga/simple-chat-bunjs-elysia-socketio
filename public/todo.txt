@@ -1,0 +1,5 @@
+[-] Add a chat box for sending messages
+    [-] make sure clicking send adds a message to the messages array
+[ ] View sent message
+[ ] Make sure that all users who are connected receive the messages.
+    * So essentially a relay server
