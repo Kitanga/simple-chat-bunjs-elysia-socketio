@@ -10,8 +10,6 @@ const engine = new Engine();
 
 io.bind(engine);
 
-const PLAYERS: { [key in string]: [number, number] } = {};
-
 io.on("connection", (socket) => {
   console.log('socket:', socket.id);
 
